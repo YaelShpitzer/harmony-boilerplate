@@ -3,7 +3,7 @@ import { combineReducers, Reducer } from 'redux';
 import baseReducers, { BaseApplicationState } from '@base/features/base-reducers';
 import { CatalogState } from './catalog/interfaces';
 import { CartState } from './cart/interfaces';
-import { ProductState } from './product/interfaces';
+import { ProductByIdState, ProductState } from './product/interfaces';
 
 export interface ApplicationState extends BaseApplicationState {
 	product: ProductState;
